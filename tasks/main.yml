@@ -1,9 +1,7 @@
 ---
-# tasks file for role-development
-- hosts: localhost
-  become: yes
-  tasks:
-    - name: Install jq
-      yum:
-        name: jq
-        state: present
+- name: task install packages
+  import_tasks: install-package.yml
+
+- name: task install openstackclient
+  import_tasks: install-openstackclient.yml
+

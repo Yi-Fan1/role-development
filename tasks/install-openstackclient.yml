@@ -1,0 +1,80 @@
+---
+- name: install pbr
+  pip:
+    name: pbr==5.4.5
+    executable: pip3
+
+- name: install cliff
+  pip:
+    name: cliff==3.1.0
+    executable: pip3
+
+- name: install iso8601
+  pip:
+    name: iso8601==0.1.12
+    executable: pip3
+
+- name: install openstacksdk
+  pip:
+    name: openstacksdk==0.46.0
+    executable: pip3
+
+- name: install osc-lib
+  pip:
+    name: osc-lib==2.0.0
+    executable: pip3
+
+- name: install oslo.i18n
+  pip:
+    name: oslo.i18n==4.0.1
+    executable: pip3
+
+- name: install oslo.utils
+  pip:
+    name: oslo.utils==3.42.1
+    executable: pip3
+
+- name: install python-keystoneclient
+  pip:
+    name: python-keystoneclient==4.0.0
+    executable: pip3
+
+- name: install python-cinderclient
+  pip:
+    name: python-cinderclient==7.0.0
+    executable: pip3
+
+- name: install python-novaclient
+  pip:
+    name: python-novaclient==17.0.0
+    executable: pip3
+
+- name: install stevedore
+  pip:
+    name: stevedore==1.32.0
+    executable: pip3
+
+- name: install dogpile-cache
+  pip:
+    name: dogpile-cache
+    executable: pip3
+
+- name: install stevedore
+  pip:
+    name: stevedore==1.32.0
+    executable: pip3
+
+- name: install netaddr
+  pip:
+    name: netaddr==0.7.19
+    executable: pip3
+
+- name: install python-openstackclient
+  pip:
+    name: python-openstackclient==5.2.2
+    executable: pip3
+
+- name: install cryptography
+  pip:
+    name: cryptography==3.2.1
+    executable: pip3 
